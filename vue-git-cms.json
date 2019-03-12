@@ -1,0 +1,281 @@
+{
+  "pages": [
+    {
+      "title": "Accueil",
+      "template": "templates/index.html",
+      "destination": "index.html",
+      "type": "html",
+      "default": true,
+      "fragments": [{
+          "id": "headerText",
+          "title": "Header text",
+          "fragment": "fragments/main-headertext.json",
+          "type": "gallery",
+          "fields": [{
+            "type": "input",
+            "inputType": "text",
+            "label": "Title",
+            "model": "title"
+          },{
+            "type": "input",
+            "inputType": "text",
+            "label": "Description",
+            "model": "description"
+          }],
+          "maxImages": 1
+        },
+        {
+          "id": "list",
+          "title": "Index",
+          "fragment": "fragments/index-list.json",
+          "type": "list",
+          "listItems": {
+            "type": "object",
+            "wrapperOptions": {
+              "titleKey": "title",
+              "subTitleKey": "boxType"
+            },
+            "default": {},
+            "schema": {
+              "fields": [{
+                "type": "select",
+                "label": "Type de layout",
+                "model": "boxType",
+                "values": [{
+                  "id": "leftImage",
+                  "name": "Image a gauche"
+                }, {
+                  "id": "rightImage",
+                  "name": "Image a droite"
+                }, {
+                  "id": "backgroundImage",
+                  "name": "Image en fond"
+                }, {
+                  "id": "text",
+                  "name": "Texte uniquement"
+                }, {
+                  "id": "listItem",
+                  "name": "Element de liste"
+                }]
+              }, {
+                "type": "image-cloudinary",
+                "model": "image",
+                "label": "Image"
+              }, {
+                "type": "input",
+                "inputType": "text",
+                "label": "Titre",
+                "model": "title"
+              }, {
+                "type": "html",
+                "label": "Contenu",
+                "model": "content"
+              }]
+            }
+          }
+        }
+      ]
+    }, {
+      "title": "Demarche",
+      "template": "templates/generic.html",
+      "destination": "demarche.html",
+      "type": "html",
+      "default": true,
+      "fragments": [{
+          "id": "list",
+          "title": "Démarche",
+          "fragment": "fragments/demarche-list.json",
+          "type": "list",
+          "listItems": {
+            "type": "object",
+            "wrapperOptions": {
+              "titleKey": "title",
+              "subTitleKey": "boxType"
+            },
+            "default": {},
+            "schema": {
+              "fields": [{
+                "type": "select",
+                "label": "Type de layout",
+                "model": "boxType",
+                "values": [{
+                  "id": "leftImage",
+                  "name": "Image a gauche"
+                }, {
+                  "id": "rightImage",
+                  "name": "Image a droite"
+                }, {
+                  "id": "backgroundImage",
+                  "name": "Image en fond"
+                }, {
+                  "id": "text",
+                  "name": "Texte uniquement"
+                }, {
+                  "id": "listItem",
+                  "name": "Element de liste"
+                }]
+              }, {
+                "type": "image-cloudinary",
+                "model": "image",
+                "label": "Image"
+              }, {
+                "type": "input",
+                "inputType": "text",
+                "label": "Titre",
+                "model": "title"
+              }, {
+                "type": "html",
+                "label": "Contenu",
+                "model": "content"
+              }]
+            }
+          }
+        }
+      ]
+    }, {
+      "title": "Ou-nous-trouver",
+      "template": "templates/generic.html",
+      "destination": "ou-nous-trouver.html",
+      "type": "html",
+      "default": true,
+      "fragments": [{
+          "id": "list",
+          "title": "Index",
+          "fragment": "fragments/ou-nous-trouver-list.json",
+          "type": "list",
+          "listItems": {
+            "type": "object",
+            "wrapperOptions": {
+              "titleKey": "title",
+              "subTitleKey": "boxType"
+            },
+            "default": {},
+            "schema": {
+              "fields": [{
+                "type": "select",
+                "label": "Type de layout",
+                "model": "boxType",
+                "values": [{
+                  "id": "leftImage",
+                  "name": "Image a gauche"
+                }, {
+                  "id": "rightImage",
+                  "name": "Image a droite"
+                }, {
+                  "id": "backgroundImage",
+                  "name": "Image en fond"
+                }, {
+                  "id": "text",
+                  "name": "Texte uniquement"
+                }, {
+                  "id": "listItem",
+                  "name": "Element de liste"
+                }]
+              }, {
+                "type": "image-cloudinary",
+                "model": "image",
+                "label": "Image"
+              }, {
+                "type": "input",
+                "inputType": "text",
+                "label": "Titre",
+                "model": "title"
+              }, {
+                "type": "html",
+                "label": "Contenu",
+                "model": "content"
+              }]
+            }
+          }
+        }
+      ]
+    }, {
+      "title": "Activités",
+      "template": "templates/generic.html",
+      "destination": "activites.html",
+      "type": "html",
+      "default": true,
+      "fragments": [{
+          "id": "mainContent",
+          "title": "Entete",
+          "fragment": "fragments/activites-content.html",
+          "type": "html"
+        }, {
+          "id": "list",
+          "title": "Liste d'activites",
+          "fragment": "fragments/activites-list.json",
+          "type": "list",
+          "listItems": {
+            "wrapperOptions": {
+              "titleKey": "title",
+              "subTitleKey": "activityType"
+            },
+            "type": "object",
+            "default": {},
+            "schema": {
+              "fields": [{
+                "type": "select",
+                "label": "Type d'activité",
+                "model": "activityType",
+                "values": [{
+                  "id": "leftImage",
+                  "name": "Image a gauche"
+                }, {
+                  "id": "rightImage",
+                  "name": "Image a droite"
+                }, {
+                  "id": "backgroundImage",
+                  "name": "Image en fond"
+                }, {
+                  "id": "text",
+                  "name": "Texte uniquement"
+                }, {
+                  "id": "listItem",
+                  "name": "Element de liste"
+                }]
+              }, {
+                "type": "image-cloudinary",
+                "model": "image",
+                "label": "Image"
+              }, {
+                "type": "input",
+                "inputType": "text",
+                "label": "Titre",
+                "model": "title"
+              }, {
+                "type": "html",
+                "label": "Contenu",
+                "model": "content"
+              }]
+            }
+          }
+        }
+      ]
+    }, {
+      "title": "Contact",
+      "template": "templates/generic.html",
+      "destination": "contact.html",
+      "type": "html",
+      "default": true,
+      "fragments": [{
+          "id": "mainContent",
+          "title": "Contact information",
+          "fragment": "fragments/contact-info.html",
+          "type": "html"
+        }
+      ]
+    }
+  ],
+  "options": {
+    "title": "Test site"
+  },
+  "optionsSchema": {
+    "fields": [
+    ]
+  },
+  "site": {
+    "canAddPages": false,
+    "publishEverythingButton": false,
+    "previewRootPath": "https://choc-hola.github.io"
+  }
+}
