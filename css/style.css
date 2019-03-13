@@ -566,3 +566,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 #footer a:hover {
 	color: #333;
 }
+
+#menu + div {
+	margin-top: 80px;
+}
