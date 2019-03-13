@@ -575,7 +575,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 	margin: auto;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
 	.content-root {
 		text-align: center;
 	}
