@@ -567,7 +567,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 	color: #333;
 }
 
-#menu + div {
+.content-root {
 	margin-top: 80px;
 }
 
