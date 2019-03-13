@@ -585,4 +585,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 	.intro h1 {
 		font-size: 5em;
 	}
+	hr {
+		margin: auto;
+	}
 }
