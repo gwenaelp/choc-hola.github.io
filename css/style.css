@@ -579,4 +579,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 	.content-root {
 		text-align: center;
 	}
+	.intro h1 {
+		font-size: 5em;
+	}
 }
