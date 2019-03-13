@@ -589,7 +589,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 		margin: auto;
 	}
 
-	.navbar-collapse.collapse {
+	.navbar-collapse {
 		background: #262626 !important;
 	}
 }
