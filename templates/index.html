@@ -68,7 +68,7 @@
             <div class="intro-text">
               <h1>{{headerText.title}}</h1>
               <p>{{headerText.subtitle}}</p>
-              <a href="#about" class="btn btn-custom btn-lg page-scroll">Découvrez le bar</a>
+              <a href="#content-root" class="btn btn-custom btn-lg page-scroll">Découvrez le bar</a>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@
   {{/each}}
 </header>
 <!-- About Section -->
-<div class="content-root">
+<div id="content-root" class="content-root">
   {{#if list}}
     {{{list.result}}}
   {{/if}}
