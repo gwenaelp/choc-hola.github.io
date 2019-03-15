@@ -594,9 +594,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
   content: '';
   position: absolute;
   top: 8px;
-  right: 8px;
+  right: 22px;
   bottom: 8px;
-  left: 8px;
+  left: 22px;
   border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
