@@ -575,6 +575,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 .img > img {
 	margin: auto;
 }
+
+.row {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 @media (min-width: 992px) {
 	.row {
 		display: flex;
