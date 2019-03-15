@@ -586,6 +586,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 		display: flex;
 		align-items: center;
 	}
+	.image-container.right {
+		order: 1;
+	}
 }
 @media (max-width: 992px) {
 @media (max-width: 992px) {
