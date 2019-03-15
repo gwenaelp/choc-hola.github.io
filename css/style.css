@@ -588,7 +588,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#779936', end
 		order: 1;
 	}
 }
-@media (max-width: 992px) {
+
+.image-container .img:before {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  bottom: 8px;
+  left: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
 @media (max-width: 992px) {
 	header .intro-text {
 		padding-top: 130px;
