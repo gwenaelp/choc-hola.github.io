@@ -218,20 +218,11 @@
                 "label": "Type d'activité",
                 "model": "activityType",
                 "values": [{
-                  "id": "leftImage",
-                  "name": "Image a gauche"
+                  "id": "marche",
+                  "name": "Marché"
                 }, {
-                  "id": "rightImage",
-                  "name": "Image a droite"
-                }, {
-                  "id": "backgroundImage",
-                  "name": "Image en fond"
-                }, {
-                  "id": "text",
-                  "name": "Texte uniquement"
-                }, {
-                  "id": "listItem",
-                  "name": "Element de liste"
+                  "id": "salon",
+                  "name": "Salon"
                 }]
               }, {
                 "type": "image-cloudinary",
