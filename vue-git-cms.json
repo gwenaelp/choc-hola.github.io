@@ -215,14 +215,23 @@
             "schema": {
               "fields": [{
                 "type": "select",
-                "label": "Type d'activité",
-                "model": "activityType",
+                "label": "Type de layout",
+                "model": "boxType",
                 "values": [{
-                  "id": "marche",
-                  "name": "Marché"
+                  "id": "leftImage",
+                  "name": "Image a gauche"
                 }, {
-                  "id": "salon",
-                  "name": "Salon"
+                  "id": "rightImage",
+                  "name": "Image a droite"
+                }, {
+                  "id": "backgroundImage",
+                  "name": "Image en fond"
+                }, {
+                  "id": "text",
+                  "name": "Texte uniquement"
+                }, {
+                  "id": "listItem",
+                  "name": "Element de liste"
                 }]
               }, {
                 "type": "image-cloudinary",
