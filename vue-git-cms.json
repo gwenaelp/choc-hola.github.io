@@ -49,7 +49,10 @@
                   "name": "Image a droite"
                 }, {
                   "id": "backgroundImage",
-                  "name": "Image en fond"
+                  "name": "Image en fond avec scroll"
+                }, {
+                  "id": "staticImage",
+                  "name": "Image en fond immobile"
                 }, {
                   "id": "text",
                   "name": "Texte uniquement"
@@ -106,7 +109,10 @@
                   "name": "Image a droite"
                 }, {
                   "id": "backgroundImage",
-                  "name": "Image en fond"
+                  "name": "Image en fond avec scroll"
+                }, {
+                  "id": "staticImage",
+                  "name": "Image en fond immobile"
                 }, {
                   "id": "text",
                   "name": "Texte uniquement"
@@ -163,7 +169,10 @@
                   "name": "Image a droite"
                 }, {
                   "id": "backgroundImage",
-                  "name": "Image en fond"
+                  "name": "Image en fond avec scroll"
+                }, {
+                  "id": "staticImage",
+                  "name": "Image en fond immobile"
                 }, {
                   "id": "text",
                   "name": "Texte uniquement"
@@ -208,7 +217,7 @@
           "listItems": {
             "wrapperOptions": {
               "titleKey": "title",
-              "subTitleKey": "activityType"
+              "subTitleKey": "boxType"
             },
             "type": "object",
             "default": {},
@@ -225,7 +234,10 @@
                   "name": "Image a droite"
                 }, {
                   "id": "backgroundImage",
-                  "name": "Image en fond"
+                  "name": "Image en fond avec scroll"
+                }, {
+                  "id": "staticImage",
+                  "name": "Image en fond immobile"
                 }, {
                   "id": "text",
                   "name": "Texte uniquement"
