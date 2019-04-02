@@ -263,19 +263,6 @@
           }
         }
       ]
-    }, {
-      "title": "Contact",
-      "template": "templates/generic.html",
-      "destination": "contact.html",
-      "type": "html",
-      "default": true,
-      "fragments": [{
-          "id": "mainContent",
-          "title": "Contact information",
-          "fragment": "fragments/contact-info.html",
-          "type": "html"
-        }
-      ]
     }
   ],
   "options": {
