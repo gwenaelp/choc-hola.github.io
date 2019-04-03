@@ -179,6 +179,9 @@
                 }, {
                   "id": "listItem",
                   "name": "Element de liste"
+                }, {
+                  "id": "map",
+                  "name": "Carte"
                 }]
               }, {
                 "type": "image-cloudinary",
