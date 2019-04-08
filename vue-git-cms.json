@@ -266,6 +266,69 @@
           }
         }
       ]
+    },{
+      "title": "Le-bar",
+      "template": "templates/generic.html",
+      "destination": "le-bar.html",
+      "type": "html",
+      "default": true,
+      "fragments": [{
+          "id": "list",
+          "title": "Index",
+          "fragment": "fragments/le-bar-list.json",
+          "type": "list",
+          "listItems": {
+            "type": "object",
+            "wrapperOptions": {
+              "titleKey": "title",
+              "subTitleKey": "boxType"
+            },
+            "default": {},
+            "schema": {
+              "fields": [{
+                "type": "select",
+                "label": "Type de layout",
+                "model": "boxType",
+                "values": [{
+                  "id": "leftImage",
+                  "name": "Image a gauche"
+                }, {
+                  "id": "rightImage",
+                  "name": "Image a droite"
+                }, {
+                  "id": "backgroundImage",
+                  "name": "Image en fond avec scroll"
+                }, {
+                  "id": "staticImage",
+                  "name": "Image en fond immobile"
+                }, {
+                  "id": "text",
+                  "name": "Texte uniquement"
+                }, {
+                  "id": "listItem",
+                  "name": "Element de liste"
+                }, {
+                  "id": "map",
+                  "name": "Carte"
+                }]
+              }, {
+                "type": "image-cloudinary",
+                "model": "image",
+                "label": "Image"
+              }, {
+                "type": "input",
+                "inputType": "text",
+                "label": "Titre",
+                "model": "title"
+              }, {
+                "type": "html",
+                "label": "Contenu",
+                "model": "content"
+              }]
+            }
+          }
+        }
+      ]
     }
   ],
   "options": {
