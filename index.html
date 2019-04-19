@@ -75,6 +75,7 @@
 </header>
 <!-- About Section -->
 <div id="content-root" class="content-root">
+  <div class="instagram-feed1"></div>
         <div class="container">
     <div class="row">
     <div>
@@ -175,5 +176,25 @@
 <script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
 <script type="text/javascript" src="js/contact_me.js"></script> 
 <script type="text/javascript" src="js/main.js"></script>
+<script src="js/instafeed.min.js"></script>
+<script type="text/javascript">
+      (function($){
+      $(window).on('load', function(){
+        $.instagramFeed({
+          'username': 'choc.hola',
+          'container': "#instagram-feed1",
+          'display_profile': false,
+          'display_biography': false,
+          'display_gallery': true,
+          'get_raw_json': false,
+          'callback': null,
+          'styling': true,
+          'items': 8,
+          'items_per_row': 8,
+          'margin': 1
+        });
+      });
+    })(jQuery);
+</script>
 </body>
 </html>
