@@ -8,7 +8,8 @@
     },
     {
       "boxType": "map",
-      "content": ""
+      "content": "",
+      "title": "test carte"
     },
     {
       "content": "<p class=\"ql-align-center\"><span class=\"ql-size-large\" style=\"color: rgb(54, 54, 54);\">Viens découvrir le vrai goût du chocolat ! </span></p><p class=\"ql-align-center\"><span class=\"ql-size-large\" style=\"color: rgb(54, 54, 54);\">Comme au temps des Mayas...</span></p>",
