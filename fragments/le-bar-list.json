@@ -7,13 +7,13 @@
       "image": "https://res.cloudinary.com/gwenaelp/image/upload/v1588011978/WhatsApp_Image_2020-03-19_at_15.07.44_yfmv6q.jpg"
     },
     {
+      "content": "<p class=\"ql-align-center\"><span class=\"ql-size-large\" style=\"color: rgb(54, 54, 54);\">Viens découvrir le vrai goût du chocolat ! </span></p><p class=\"ql-align-center\"><span class=\"ql-size-large\" style=\"color: rgb(54, 54, 54);\">Comme au temps des Mayas...</span></p>",
+      "boxType": "text"
+    },
+    {
       "boxType": "map",
       "content": "",
       "title": "test carte"
-    },
-    {
-      "content": "<p class=\"ql-align-center\"><span class=\"ql-size-large\" style=\"color: rgb(54, 54, 54);\">Viens découvrir le vrai goût du chocolat ! </span></p><p class=\"ql-align-center\"><span class=\"ql-size-large\" style=\"color: rgb(54, 54, 54);\">Comme au temps des Mayas...</span></p>",
-      "boxType": "text"
     },
     {
       "boxType": "leftImage",
